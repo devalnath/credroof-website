@@ -1,0 +1,3 @@
+# Preview state. Replace with the launch policy before the site is public.
+User-agent: *
+Disallow: /
