@@ -1,5 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <path fill="#F4A437" d="M6 27 34 7v13L19 31v15L6 55Z"/>
-  <path fill="#0A562B" d="m38 22 20 14v19L38 42Z"/>
-  <path fill="#F2F7F3" d="m6 57 14-9 16 8-14 8H6Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="CredRoof favicon" shape-rendering="geometricPrecision">
+<rect x="0" y="0" width="256" height="256" fill="#0A562B"/><g transform="matrix(0.55 0 0 0.55 18 56.5)"><path d="M20 98 L150 16 H294 L188 98 Z M302 25 L390 98 H335 L266 47 Z" fill="#F4A437"/><path d="M70 98 C58 118 52 139 52 163 C52 214 88 246 145 246 H315 L272 198 H155 C120 198 99 180 99 151 C99 130 110 113 127 98 Z M198 115 H222 V139 H198 Z M230 115 H254 V139 H230 Z M198 147 H222 V171 H198 Z M230 147 H254 V171 H230 Z" fill="#FFFFFF"/></g>
 </svg>

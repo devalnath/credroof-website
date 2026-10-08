@@ -315,10 +315,10 @@ output {
   white-space: nowrap;
 }
 
-.brand__mark {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: var(--accent);
+.brand__logo {
+  display: block;
+  height: 1.7rem;
+  width: auto;
   flex: none;
 }
 
@@ -2253,9 +2253,6 @@ textarea.is-invalid {
   color: var(--on-forest);
 }
 
-.site-foot .brand__mark {
-  color: var(--accent);
-}
 
 .site-foot p {
   margin-top: 0.85rem;

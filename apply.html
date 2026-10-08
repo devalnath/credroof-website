@@ -9,8 +9,11 @@
       content="Tell us your area, budget and timeline. CredRoof matches homes to your requirement within about 10 km and discusses what funding may be possible, subject to the lender's checks."
     />
     <meta name="robots" content="noindex" />
-    <meta name="theme-color" content="#0a562b" />
-    <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="theme-color" content="#0A562B" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
     <link rel="preload" href="assets/fonts/satoshi-500.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="assets/fonts.css?v=5" />
@@ -32,14 +35,8 @@
     <header class="site-head site-head--solid">
       <div class="container site-head__inner">
         <a class="brand" href="index.html">
-          <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
-            <g fill="currentColor">
-              <path d="M6 27 34 7v13L19 31v15L6 55Z" />
-              <path d="m38 22 20 14v19L38 42Z" />
-              <path d="m6 57 14-9 16 8-14 8H6Z" />
-            </g>
-          </svg>
-          CredRoof <span class="brand__tag">Kerala</span>
+          <img class="brand__logo" src="assets/credroof-logo-color.svg" alt="CredRoof" width="1000" height="240" />
+          <span class="brand__tag">Kerala</span>
         </a>
         <a class="btn btn--call head-cta" data-phone-link href="#callback">
           <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -134,12 +131,12 @@
                   <label class="field__label" for="budget">Budget (optional)</label>
                   <select id="budget" name="budget">
                     <option value="">Not sure yet</option>
-                    <option value="below-30l">Below ₹30 lakh</option>
-                    <option value="30-45l">₹30 to ₹45 lakh</option>
-                    <option value="45-60l">₹45 to ₹60 lakh</option>
-                    <option value="60-80l">₹60 to ₹80 lakh</option>
-                    <option value="80l-1cr">₹80 lakh to ₹1 crore</option>
-                    <option value="above-1cr">Above ₹1 crore</option>
+                    <option value="below-30l">Below â‚¹30 lakh</option>
+                    <option value="30-45l">â‚¹30 to â‚¹45 lakh</option>
+                    <option value="45-60l">â‚¹45 to â‚¹60 lakh</option>
+                    <option value="60-80l">â‚¹60 to â‚¹80 lakh</option>
+                    <option value="80l-1cr">â‚¹80 lakh to â‚¹1 crore</option>
+                    <option value="above-1cr">Above â‚¹1 crore</option>
                   </select>
                 </div>
                 <div class="field field--full">
@@ -251,7 +248,7 @@
             finance companies and is subject to their approval, eligibility and terms. CredRoof is not a bank or a lender.
             Availability of homes depends on your chosen location and budget.
           </p>
-          <p>© <span data-year>2026</span> CredRoof. <a href="index.html">Back to home</a></p>
+          <p>Â© <span data-year>2026</span> CredRoof. <a href="index.html">Back to home</a></p>
         </div>
       </div>
     </footer>
