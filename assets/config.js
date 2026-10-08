@@ -14,9 +14,9 @@ window.CREDROOF_CONFIG = {
   // Sales line, international format, digits only. Example: 919876543210
   // Leave empty to keep the site in demo mode: call buttons point to the form
   // and the WhatsApp message is displayed instead of sent.
-  whatsapp: "",
+  whatsapp: "918848326840",
   // Shown on the call buttons and in the footer. Example: "+91 98765 43210"
-  phone: "",
+  phone: "+91 88483 26840",
   email: "hello@credroof.in",
   city: "Thrissur, Kerala",
   formEndpoint: "", // optional POST endpoint for a CRM or form service

@@ -306,7 +306,8 @@ output {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-weight: 600;
   font-size: 1.08rem;
   letter-spacing: -0.01em;
   color: inherit;
@@ -315,8 +316,8 @@ output {
 }
 
 .brand__mark {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
   color: var(--accent);
   flex: none;
 }
